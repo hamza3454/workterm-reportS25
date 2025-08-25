@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hamza Memon – EQ Bank Co-op Work Term Report</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    :root { --eq-yellow:#FFD500; --eq-black:#000; }
+
+    body { font-family: system-ui, -apple-system, "Inter", Segoe UI, Roboto, Arial, sans-serif; scroll-behavior:smooth; }
+
+    .navbar { background:#111; }
+    .navbar a.nav-link { color:#f6f6f6 !important; }
+    .navbar a.nav-link.active, .navbar a.nav-link:hover { color:var(--eq-yellow) !important; }
+
+    header { background:var(--eq-yellow); color:var(--eq-black); padding:70px 0 50px; text-align:center; }
+    header img { max-width:140px; margin-bottom:20px; }
+    header h1 { font-weight:800; }
+    header p { font-size:1.1rem; }
+
+    section { padding:60px 0; }
+    .bg-stripe { background:#f9f9f9; }
+
+    .section-title {
+      font-weight:700;
+      margin-bottom:16px;
+      position:relative;
+      display:inline-block;
+    }
+    .section-title::after {
+      content:"";
+      display:block;
+      width:60px;
+      height:4px;
+      background:var(--eq-yellow);
+      margin-top:6px;
+      border-radius:2px;
+    }
+    .icon-title { color:var(--eq-yellow); margin-right:8px; }
+
+    .container-box {
+      background:#fff;
+      border-radius:14px;
+      padding:28px;
+      box-shadow:0 6px 18px rgba(0,0,0,0.06);
+      margin-bottom:25px;
+    }
+
+    .goal-card {
+      background:#fff;
+      border-left:6px solid var(--eq-yellow);
+      border-radius:10px;
+      padding:14px 18px;
+      margin-bottom:14px;
+      box-shadow:0 3px 10px rgba(0,0,0,0.05);
+    }
+
+    footer {
+      background:#FFD500;
+      color:#111;
+      text-align:center;
+      padding:32px 16px;
+    }
+    footer img { max-width:120px; height:auto; margin-bottom:12px; opacity:.95; }
+  </style>
+</head>
+<body>
+
+<!-- Sticky Navbar -->
+<nav class="navbar navbar-expand-md sticky-top">
+  <div class="container">
+    <a class="navbar-brand text-light fw-semibold" href="#top">Work Term Report</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+    </button>
+    <div id="nav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#intro">Introduction</a></li>
+        <li class="nav-item"><a class="nav-link" href="#employer">Employer</a></li>
+        <li class="nav-item"><a class="nav-link" href="#goals">Goals</a></li>
+        <li class="nav-item"><a class="nav-link" href="#job">Job</a></li>
+        <li class="nav-item"><a class="nav-link" href="#reflections">Conclusions</a></li>
+        <li class="nav-item"><a class="nav-link" href="#acknowledgments">Acknowledgments</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+<header id="top" data-aos="fade-down">
+  <div class="container">
+    <img src="assets/eq-logo.png" alt="EQ Bank Logo">
+    <h1 class="display-5">EQ Bank Co-op Work Term Report</h1>
+    <p>Hamza Memon · Summer 2025 · University of Guelph</p>
+  </div>
+</header>
+
+<!-- Introduction -->
+<section id="intro">
+  <div class="container" data-aos="fade-up">
+    <h2 class="section-title"><i class="fa-solid fa-landmark icon-title"></i>Introduction</h2>
+    <div class="container-box">
+      <p>
+        During the Summer 2025 semester, I completed a four month co-op work term at <strong>EQ Bank (Equitable Bank)</strong> in Toronto. 
+        My role was with the <strong>Retail Lending Technology team</strong>, where I contributed to projects involving API integration, 
+        system improvements, and documentation. This opportunity allowed me to apply classroom concepts in a professional fintech 
+        setting while gaining valuable exposure to enterprise-scale workflows.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Employer -->
+<section id="employer" class="bg-stripe">
+  <div class="container" data-aos="fade-up">
+    <h2 class="section-title"><i class="fa-solid fa-building icon-title"></i>About the Employer</h2>
+    <div class="container-box">
+      <p>
+        EQ Bank is Canada’s leading <strong>digital only bank</strong>, offering innovative products such as high interest savings accounts, 
+        mortgages, and lending services. A division of Equitable Bank, EQ Bank focuses heavily on <strong>technology driven solutions</strong> 
+        to provide modern financial services to Canadians. Within this environment, the Retail Lending Technology team supports and enhances 
+        the systems powering EQ Bank’s lending products, giving me direct exposure to how computing supports financial innovation.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Goals -->
+<section id="goals">
+    <div class="container" data-aos="fade-up">
+      <h2 class="section-title"><i class="fa-solid fa-bullseye icon-title"></i>Goals & Learning Outcomes</h2>
+  
+      <div class="container-box">
+        <p>
+          At the start of my co-op, I set out several goals aligned with both my academic growth and job responsibilities. 
+          These included strengthening my technical foundation, gaining exposure to enterprise technologies, and improving 
+          professional communication. My goals were directly related to my job tasks, which required programming, API integration, 
+          and collaboration with teammates in an agile environment. 
+        </p>
+        <p>
+          I wanted to build skills in debugging, writing cleaner code, and using version control effectively, all of which will 
+          benefit my next work experience by making me a more efficient contributor to large codebases. I also aimed to explore 
+          technologies such as <strong>Java, Spring Boot, Docker, Angular, and CI/CD pipelines</strong>, since they are widely used 
+          in enterprise environments and will be valuable in future co-op terms and career opportunities.
+        </p>
+        <p>
+          Reflecting on these goals, I am proud to say I completed the majority of them. I successfully strengthened my technical 
+          expertise, became more comfortable with industry tools, and improved my ability to communicate technical concepts clearly. 
+          While I met my learning goals, one area I would have liked more hands on experience in was <strong>frontend frameworks 
+          like Angular</strong>. Although I gained exposure through shadowing and documentation, I did not contribute as deeply to 
+          that area as I did with backend technologies.
+        </p>
+      </div>
+  
+      <div class="container-box">
+        <h5><strong>Learning Goal 1: Critical & Creative Thinking – Depth & Breadth of Understanding</strong></h5>
+        <p><strong>Goal:</strong> Apply object-oriented programming (OOP) concepts and debugging strategies in a professional codebase.</p>
+        <p><strong>Action Plan:</strong></p>
+        <ul>
+          <li>Review and analyze my team’s existing codebase for opportunities to apply OOP and debugging techniques.</li>
+          <li>Use Git for version control (branching, merging, conflict resolution).</li>
+          <li>Participate in weekly code reviews, giving and receiving constructive feedback.</li>
+        </ul>
+        <p><strong>Measure of Success:</strong></p>
+        <ul>
+          <li>Demonstrated improvement in clarity and quality of code review comments.</li>
+          <li>Successfully resolved merge conflicts and committed clean code following best practices.</li>
+          <li>Positive feedback from senior developers on my understanding of OOP concepts.</li>
+        </ul>
+      </div>
+  
+      <div class="container-box">
+        <h5><strong>Learning Goal 2: Critical & Creative Thinking – Breadth of Technical Knowledge</strong></h5>
+        <p><strong>Goal:</strong> Become familiar with technologies such as <strong>Java, Spring Boot, Angular, Docker, and CI/CD pipelines</strong> by observing and documenting real-world usage.</p>
+        <p><strong>Action Plan:</strong></p>
+        <ul>
+          <li>Shadow teammates and review project repositories to understand how each tool fits into workflows.</li>
+          <li>Explore official documentation and tutorials for each framework.</li>
+          <li>Document the purpose and implementation details of tools used by the team.</li>
+        </ul>
+        <p><strong>Measure of Success:</strong></p>
+        <ul>
+          <li>Produced a clear document outlining usage of each technology.</li>
+          <li>Demonstrated ability to contribute to tasks involving these frameworks.</li>
+          <li>Received positive feedback from supervisors on initiative and technical growth.</li>
+        </ul>
+      </div>
+  
+      <div class="container-box">
+        <h5><strong>Learning Goal 3: Communication – Integrative Professional Communication</strong></h5>
+        <p><strong>Goal:</strong> Improve professional communication through active meeting participation and structured documentation.</p>
+        <p><strong>Action Plan:</strong></p>
+        <ul>
+          <li>Prepare discussion points/questions before team meetings.</li>
+          <li>Contribute to technical discussions during stand-ups and sprint reviews.</li>
+          <li>Document work in a structured format using team tools (e.g., Confluence, README files).</li>
+        </ul>
+        <p><strong>Measure of Success:</strong></p>
+        <ul>
+          <li>Feedback from team members highlighting strong meeting contributions.</li>
+          <li>Well-written documentation accepted and used by the team.</li>
+          <li>Improved confidence when explaining technical concepts to both technical and non-technical stakeholders.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+<!-- Job -->
+<section id="job" class="bg-stripe">
+  <div class="container" data-aos="fade-up">
+    <h2 class="section-title"><i class="fa-solid fa-laptop-code icon-title"></i>Job Description</h2>
+    <div class="container-box">
+      <p>My role centered on <strong>software development and integration tasks</strong> within the Retail Lending Technology team. Responsibilities included:</p>
+      <ul>
+        <li>Assisting with API workflows that supported secure communication between services.</li>
+        <li>Supporting testing and troubleshooting using tools such as Postman and Kibana.</li>
+        <li>Creating step by step technical documentation to support onboarding and knowledge transfer.</li>
+        <li>Actively participating in Agile ceremonies (daily stand-ups, sprint planning, reviews).</li>
+      </ul>
+      <p>This position required knowledge of programming, debugging, and software engineering principles learned in class, while also pushing me to adapt to <strong>enterprise grade security and system requirements</strong>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Reflections / Conclusions -->
+<section id="reflections">
+  <div class="container" data-aos="fade-up">
+    <h2 class="section-title"><i class="fa-solid fa-star icon-title"></i>Conclusions</h2>
+    <div class="container-box">
+      <p>
+        This work term was a transformative experience. It reinforced the importance of:
+      </p>
+      <ul>
+        <li>Balancing <strong>technical depth</strong> with clear communication.</li>
+        <li>Writing secure, scalable, and maintainable code.</li>
+        <li>Understanding how computing systems directly support financial services in a regulated industry.</li>
+      </ul>
+      <p>
+        Overall, I left this role with stronger technical, problem solving, and teamwork skills, which will serve me in future work terms and my career.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section id="gallery" class="bg-stripe">
+    <div class="container" data-aos="fade-up">
+      <h2 class="section-title"><i class="fa-solid fa-camera icon-title"></i>Work Term Gallery</h2>
+      <div class="row text-center">
+        <div class="col-md-4 mb-3">
+          <img src="assets/office-view1.jpg" alt="Office view 1" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="assets/office-view2.jpg" alt="Office view 2" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="assets/office-view3.jpg" alt="Office view 3" class="img-fluid rounded shadow">
+        </div>
+      </div>
+      <p class="text-muted mt-3">Photos taken from my co-op experience in Toronto this summer.
+  </section>
+
+<!-- Acknowledgments -->
+<section id="acknowledgments" class="bg-stripe">
+  <div class="container" data-aos="fade-up">
+    <h2 class="section-title"><i class="fa-solid fa-hands-helping icon-title"></i>Acknowledgments</h2>
+    <div class="container-box">
+      <p>
+        I would like to thank my manager, mentors, and colleagues at EQ Bank for their support throughout this term. 
+        Their guidance, feedback, and willingness to involve me in key discussions made this a highly rewarding experience.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <img src="assets/uofg-logo.png" alt="University of Guelph Logo">
+  <p class="mt-2 mb-0">&copy; 2025 Hamza Memon · University of Guelph</p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({ duration: 900, once: true });
+</script>
+</body>
+</html>
